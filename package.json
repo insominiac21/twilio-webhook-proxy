@@ -1,0 +1,27 @@
+{
+  "name": "twilio-webhook-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server to fix n8n Cloud webhook Content-Type issues with Twilio WhatsApp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "twilio",
+    "webhook",
+    "proxy",
+    "n8n",
+    "whatsapp",
+    "railway"
+  ],
+  "author": "WhatsApp Google Drive Assistant Project",
+  "license": "MIT"
+}
